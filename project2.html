@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Cafe Shop</title>
+  <link rel="stylesheet" href="./project.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact us">Contact Us</a></li>
+      </ul>
+    </nav>
+    <h1> The Best Cafe In The City</h1>
+  </header>
+
+  <section>
+    <p>Welcome to our cafe! We serve the best coffee in town.</p>
+  </section> 
+  <button class="menu-btn" onclick="showMenu()">Menu</button>
+  <section id="menu" style="display: none;">
+  <h2>Our Menu</h2>
+  
+  <div class="menu-item">
+    <h3>Cappuccino</h3>
+    <p>Rich espresso with steamed milk</p>
+    <span>25 EGP</span>
+  </div>
+
+  <div class="menu-item">
+    <h3>Latte</h3>
+    <p>Smooth and creamy coffee</p>
+    <span>50 EGP</span>
+  </div>
+
+  <div class="menu-item">
+    <h3>Croissant</h3>
+    <p>Fresh baked every morning</p>
+    <span>40 EGP</span>
+  </div>
+  <div class="menu-item">
+    <h3>Chocolate cake</h3>
+    <p>Fresh baked every morning</p>
+    <span>60 EGP</span>
+  </div>
+  <div class="menu-item">
+    <h3>Coffee</h3>
+    <p> classic black Coffee</p>
+    <span>20 EGP</span>
+  </div>
+</section>
+  <form action="" method="get">
+    <h2>Make an order</h2>
+
+    <div>
+      <label>User name</label>
+      <input type="text" required placeholder="User name">
+    </div>
+    <br>
+    <div>
+      <label>Coffee type</label>
+      <input type="text" required placeholder="e.g. Cappuccino">
+    </div>
+    <br>
+    <div>
+      <label>Size</label>
+      <input type="text" required placeholder="Small / Medium / Large">
+    </div>
+    <br>
+    <hr>
+    <input type="reset" value="Reset">
+    <input type="submit" value="Save"> 
+  </form> 
+  
+  <section id="about">
+  <h2>About Us</h2>
+  <p>We are a cozy cafe that serves the finest coffee and food. 
+  Come and enjoy our warm atmosphere!</p>
+</section>
+<footer>
+  <p>© 2026 My Cafe Shop</p>
+  <p>©Yasmin Rizkana</p>
+</footer> 
+
+    <script>
+      function showMenu() {
+        var menu = document.getElementById("menu");
+        if (menu.style.display === "none") {
+          menu.style.display = "block";
+        } else {
+          menu.style.display = "none";
+        }
+      }
+    </script>
+</body> 
+
+
+</html>
