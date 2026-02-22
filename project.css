@@ -1,0 +1,125 @@
+body{
+   background-image: url(./image/pp.jpeg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   padding: 0;
+   margin: 0;
+}
+header{
+    background-color: rgba(111,78,55,0,7);
+    text-align: center;
+    padding: 30px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    margin: 0;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+header h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+section {
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 15px 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.8);
+  max-width: 300px;
+  margin: 30px auto ;
+  padding: 30px;
+  border-radius: 15px;
+  input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #6f4e37;
+  border-radius: 8px;
+  margin-top: 5px;
+  background-color: #fff8f0;
+} 
+input[type="submit"] {
+  background-color: #6f4e37;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  background-color: #d4a96a;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+} 
+#menu {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+}
+
+#menu h2 {
+  text-align: center;
+  color: #6f4e37;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d4a96a;
+  padding: 15px 0;
+}
+
+.menu-item h3 {
+  color: #6f4e37;
+  margin: 0;
+} 
+.menu-btn {
+  display: block;
+  margin: 20px auto;
+  background-color: #6f4e37;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.menu-item span {
+  font-weight: bold;
+  color: #6f4e37;
+}
+
+footer {
+  background-color: rgba(111, 78, 55, 0.7);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
